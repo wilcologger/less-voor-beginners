@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+.button-creator(@color) {
+	background: @color;
+	box-shadow: 0px 4px 0px darken(@color, 7%);
+
+	&:active {
+		box-shadow: 0px 2px 0px darken(@color, 7%);
+		position: relative;
+		top: 2px;
+	}
+}
+
+.btn {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	padding: 10px;
+	border: none;
+	text-align: center;
+	outline: none;
+	cursor: pointer;
+	color: #fafafa;
+
+	&.btn-bad {
+		.button-creator(#5a5a5a);
+	}
+
+	&.btn-awesome {
+		.button-creator(#17805B);
+	}
+
+	&.btn-cool {
+		.button-creator(#6A598D);
+	}
+}

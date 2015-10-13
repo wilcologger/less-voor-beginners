@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+.btn {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  color: #fafafa;
+}
+.btn.btn-bad {
+  background: #5a5a5a;
+  box-shadow: 0px 4px 0px #484848;
+}
+.btn.btn-bad:active {
+  box-shadow: 0px 2px 0px #484848;
+  position: relative;
+  top: 2px;
+}
+.btn.btn-awesome {
+  background: #17805b;
+  box-shadow: 0px 4px 0px #126245;
+}
+.btn.btn-awesome:active {
+  box-shadow: 0px 2px 0px #126245;
+  position: relative;
+  top: 2px;
+}
+.btn.btn-cool {
+  background: #6a598d;
+  box-shadow: 0px 4px 0px #5a4b77;
+}
+.btn.btn-cool:active {
+  box-shadow: 0px 2px 0px #5a4b77;
+  position: relative;
+  top: 2px;
+}
